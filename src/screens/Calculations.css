@@ -8,7 +8,7 @@
   /* margin-top: 50px;
   margin-bottom: -40px; */
   justify-self: flex-start;
-  color: #fa9884;
+  color: #ffe6c7;
 }
 
 .loginreg-title {
@@ -31,8 +31,8 @@
   color: #fff;
 }
 .input {
-  background-color: #353535;
-  border-image: linear-gradient(to right, #e74646 0%, #fa9884 100%) 1;
+  background-color: #454545;
+  border-image: linear-gradient(to right, #ff6000 0%, #454545 100%) 1;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -51,7 +51,8 @@
   border-width: 0px;
   width: 200px;
   height: 40px;
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
   align-self: center;
   cursor: pointer;
 }
