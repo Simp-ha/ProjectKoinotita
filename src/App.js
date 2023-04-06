@@ -2,22 +2,20 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./screens/Home";
 import Calc from "./screens/Calculations";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route
-            path="https://koinotita.netlify.app/calculations"
-            element={<Calc />}
-          />
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <img src={logo} className="App-logo" alt="logo" />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="https://koinotita.netlify.app/calculations"
+          element={<Calc />}
+        />
+      </Routes>
+    </div>
   );
 }
 
