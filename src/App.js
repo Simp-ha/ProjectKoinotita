@@ -10,8 +10,8 @@ function App() {
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/calculations" element={<Calc />} />
+          <Route path="koinotita.netlify.app" element={<Home />} />
+          <Route path="koinotita.netlify.app/calculations" element={<Calc />} />
         </Routes>
       </div>
     </Router>
