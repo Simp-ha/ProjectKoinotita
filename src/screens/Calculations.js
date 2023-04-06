@@ -3,12 +3,12 @@ import "./Calculations.css";
 
 function Calculations() {
   return (
-    <div className="box">
+    <div className="">
       <a href="/">
         <button className="secondButton h3">HOME</button>
       </a>
-      <h1 className="h1">CALCULATE</h1>
-      <div className="container">
+      <div className="box container">
+        <h1 className="h1">CALCULATE</h1>
         <form className="column">
           <input
             className="labels input h2"
