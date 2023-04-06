@@ -8,10 +8,8 @@
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  width: 1280px;
 
-  border-style: inset;
-  border-color: #2a2a42;
-  border-radius: 10px;
-  border-width: 50px;
+  border-color: #e74646;
+  border-radius: 5px;
+  border-width: 25px;
 }

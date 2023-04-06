@@ -7,10 +7,8 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/calculations" element={<Calc />} />
+        <Route path="/" element={<Calc />} />
       </Routes>
     </div>
   );

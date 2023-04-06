@@ -31,7 +31,7 @@
   color: #fff;
 }
 .input {
-  background-color: #2a2a42;
+  background-color: #353535;
   border-image: linear-gradient(to right, #e74646 0%, #fa9884 100%) 1;
   border-top: none;
   border-left: none;
@@ -45,8 +45,8 @@
   opacity: 0.7;
 }
 .mainButton {
-  background: linear-gradient(to right, #e74646 0%, #fa9884 100%);
-  box-shadow: 0 0 20px #212237;
+  background: linear-gradient(to right, #ff6000 0%, #ffa559 100%);
+  box-shadow: 0 0 20px #353535;
   border-radius: 20px;
   border-width: 0px;
   width: 200px;
@@ -57,8 +57,8 @@
 }
 
 .secondButton {
-  background-color: #212237;
-  box-shadow: 0 0 20px #212237;
+  background-color: #ff6000;
+  box-shadow: 0 0 20px #ff6000;
   border-radius: 20px;
   border-width: 0px;
   width: 200px;
@@ -73,6 +73,7 @@
 }
 .secondButton:hover {
   background: white;
+  box-shadow: 0 0 20px #ff6000;
   transition: 1s;
   color: black;
 }
@@ -80,13 +81,12 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: fit-content;
+  min-height: fit-content;
+  justify-content: center;
 }
 .box {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.466);
-  background-color: #2a2a42;
+  background-color: #454545;
   border-radius: 20px;
   width: 50%;
   height: 80%;
@@ -94,7 +94,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  transform: scale(1.15);
 }
 
 .column {
@@ -136,7 +135,7 @@
   }
   .box {
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.466);
-    background-color: #2a2a42;
+    background-color: #454545;
     border-radius: 20px;
     width: 75%;
   }

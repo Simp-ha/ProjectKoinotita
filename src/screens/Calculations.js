@@ -3,11 +3,37 @@ import "./Calculations.css";
 
 function Calculations() {
   return (
-    <div className="container">
-      <h1>CALCULATE</h1>
+    <div className="box">
       <a href="/">
-        <button className="mainButton h3">Back</button>
+        <button className="secondButton h3">HOME</button>
       </a>
+      <h1 className="h1">CALCULATE</h1>
+      <div className="container">
+        <form className="column">
+          <input
+            className="labels input h2"
+            type="text"
+            id="Ρεύμα"
+            placeholder="Ρεύμα"
+            required
+          />
+          <input
+            className="labels input h2"
+            type="Text"
+            id="Τάση"
+            placeholder="Τάση"
+            required
+          />
+          <input
+            className="labels input h2"
+            type=""
+            id="Ισχύς"
+            placeholder="Ισχύς"
+            required
+          />
+          <button className="mainButton h3">Υπολογισμός</button>
+        </form>
+      </div>
     </div>
   );
 }
