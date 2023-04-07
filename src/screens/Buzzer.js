@@ -1,1 +1,3 @@
-function Buzzer() {}
+function Buzzer() {
+  return <div></div>;
+}

@@ -3,6 +3,7 @@ import "./Calculations.css";
 
 function Calculations() {
   //Result for breaker
+
   return (
     <div>
       <a href="/">
@@ -28,9 +29,9 @@ function Calculations() {
             placeholder="Τάση"
             required
           />
-          <input
+          <output
             className="labels input h2"
-            type=""
+            type="Text"
             id="Ισχύς"
             placeholder="Ισχύς"
             required
