@@ -5,14 +5,17 @@ function Calculations() {
   //Result for breaker
 
   return (
-    <div>
-      <a href="/">
-        <button className="secondButton h3">HOME</button>
-      </a>
-      <a href="/game">
-        <button className="secondButton h3">GAME</button>
-      </a>
-      <div className="box">
+    <div className="box">
+      <div>
+        <a href="/">
+          <button className="secondButton h3">HOME</button>
+        </a>
+        <a href="/game">
+          <button className="secondButton h3">GAME</button>
+        </a>
+        <a href="/mgame">
+          <button className="secondButton h3">BUZZER</button>
+        </a>
         <h1 className="h1">CALCULATE</h1>
         <form className="column">
           <input

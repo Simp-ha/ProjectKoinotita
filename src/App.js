@@ -2,6 +2,7 @@ import "./App.css";
 import Calc from "./screens/Calculations";
 import Home from "./screens/Home";
 import Game from "./screens/Game";
+import Buzzer from "./screens/Buzzer";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/calculation" element={<Calc />} />
         <Route path="/game" element={<Game />} />
+        <Route path="/mgame" element={<Buzzer />} />
       </Routes>
     </div>
   );
