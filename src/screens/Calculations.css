@@ -62,11 +62,10 @@
   box-shadow: 0 0 20px #ff6000;
   border-radius: 30px;
   border-width: 0px;
-  width: 300px;
+  width: 250px;
   height: 45px;
-  margin-top: 20px;
-  margin-bottom: 50px;
   align-self: center;
+  margin: 20px;
   cursor: pointer;
 }
 .mainButton:hover {

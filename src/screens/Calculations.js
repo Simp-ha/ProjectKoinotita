@@ -5,12 +5,14 @@ function Calculations() {
   //Result for breaker
   return (
     <div className="box">
-      <a href="/">
-        <button className="secondButton h3">HOME</button>
-      </a>
-      <a href="/game">
-        <button className="secondButton h3">GAME</button>
-      </a>
+      <div>
+        <a href="/">
+          <button className="secondButton h3">HOME</button>
+        </a>
+        <a href="/game">
+          <button className="secondButton h3">GAME</button>
+        </a>
+      </div>
       <h1 className="h1">CALCULATE</h1>
       <form className="column">
         <input
@@ -34,7 +36,9 @@ function Calculations() {
           placeholder="Ισχύς"
           required
         />
-        <button className="mainButton h3">Υπολογισμός</button>
+        <button className="mainButton h3" onClick={""}>
+          Υπολογισμός
+        </button>
       </form>
     </div>
   );
