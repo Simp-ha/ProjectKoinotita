@@ -1,5 +1,6 @@
 import "./App.css";
-import Calc from "./screens/Calculations";
+
+import Game from "./screens/Game";
 
 import { Routes, Route } from "react-router-dom";
 
