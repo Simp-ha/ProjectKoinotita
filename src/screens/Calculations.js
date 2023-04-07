@@ -9,7 +9,7 @@ function Calculations() {
         <button className="secondButton h3">HOME</button>
       </a>
       <a href="/game">
-        <button className="secondButton h2">GAME</button>
+        <button className="secondButton h3">GAME</button>
       </a>
       <h1 className="h1">CALCULATE</h1>
       <form className="column">
