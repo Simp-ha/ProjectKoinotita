@@ -88,7 +88,9 @@
   justify-content: space-around;
   align-items: center;
 }
-
+.row {
+  display: flex;
+}
 .column {
   display: flex;
   flex-direction: column;
@@ -117,6 +119,10 @@
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.466);
     background-color: #454545;
     border-radius: 20px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-content: center;
     width: 150%;
   }
   .columnB {

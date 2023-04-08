@@ -3,14 +3,14 @@
   border-radius: 100px;
   width: 200px;
   height: 200px;
-  margin: 100px;
+  margin: 80px;
 }
 .ButtonB {
   background-color: #459631;
   border-radius: 100px;
   width: 200px;
   height: 200px;
-  margin: 100px;
+  margin: 80px;
 }
 .container {
   display: flex;
