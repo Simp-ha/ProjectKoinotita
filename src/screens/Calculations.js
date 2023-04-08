@@ -32,7 +32,7 @@ function Calculations() {
         <h1 className="h1">CALCULATE</h1>
         {isShown && (
           <div className="box labels h3">
-            Η επιθυμιτή ασφάλεια αντέχει ρεύμα {result} A
+            Η επιθυμιτή ασφάλεια {result} A
           </div>
         )}
         <form className="column">
