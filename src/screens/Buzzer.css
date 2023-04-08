@@ -1,19 +1,43 @@
 .ButtonA {
-  background-color: #453245;
+  background: linear-gradient(to right, #a34a28 25%, #f58b54 100%);
+  box-shadow: 0 0 100px #f58b54;
   border-radius: 100px;
   width: 200px;
   height: 200px;
   margin: 80px;
+  font-family: monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 1px;
+  color: #fff;
 }
 .ButtonB {
-  background-color: #459631;
+  background: linear-gradient(to right, #4c3575 0%, #371b58 100%);
+  box-shadow: 0 0 100px #371b58;
   border-radius: 100px;
   width: 200px;
   height: 200px;
   margin: 80px;
+  font-family: monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 1px;
+  color: #fff;
 }
 .container {
   display: flex;
   flex-direction: row;
   min-height: fit-content;
+}
+@media screen and (max-width: 800px), (max-width: 667px), (max-width: 500px) {
+  .ButtonA {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  .ButtonB {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
 }
