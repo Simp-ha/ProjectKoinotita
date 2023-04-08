@@ -16,7 +16,7 @@ function Buzzer() {
       <a href="/">
         <button className="secondButton h3">HOME</button>
       </a>
-      {winner}
+      <div className="buzz">{winner}</div>
       <div className="container">
         <button className="ButtonA" onClick={A}>
           A
